@@ -2,3 +2,4 @@ mecab-ipadic-neologd/
 master.zip
 cabocha-master/
 cabocha/
+.env
