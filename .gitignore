@@ -1,9 +1,36 @@
+# =========================
+# Data / Archives
+# =========================
+*.zip
+*.tsv
+
+# =========================
+# Model / Embedding artifacts (gensim, word2vec)
+# =========================
+*.bin
+*.kv
+*.vec
+*.npy
+*syn0*.npy
+*syn1neg*.npy
+
+# =========================
+# NLP toolchains / dictionaries
+# =========================
 mecab-ipadic-neologd/
-master.zip
 cabocha-master/
 cabocha/
+
+# =========================
+# Secrets
+# =========================
 .env
-.bin
-.npy
-.zip
-.tsv
+.env.*
+
+# =========================
+# Python noise
+# =========================
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
