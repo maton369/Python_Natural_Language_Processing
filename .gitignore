@@ -3,3 +3,6 @@ master.zip
 cabocha-master/
 cabocha/
 .env
+.bin
+.npy
+.zip
