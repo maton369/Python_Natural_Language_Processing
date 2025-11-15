@@ -5,3 +5,4 @@ cabocha/
 *.env
 *.bin
 *.npy
+*.vec
